@@ -12,12 +12,12 @@
 		CFC994B429AFFEB000E4E68A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC994B329AFFEB000E4E68A /* SearchViewController.swift */; };
 		CFC994B729AFFEB000E4E68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC994B529AFFEB000E4E68A /* Main.storyboard */; };
 		CFC994B929AFFEB200E4E68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC994B829AFFEB200E4E68A /* Assets.xcassets */; };
-		CFC994BC29AFFEB200E4E68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC994BA29AFFEB200E4E68A /* LaunchScreen.storyboard */; };
 		CFC994C429B0043000E4E68A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC994C329B0043000E4E68A /* SearchResult.swift */; };
 		CFC994C629B0076A00E4E68A /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC994C529B0076A00E4E68A /* SearchResultCell.xib */; };
 		CFC994C829B00B4C00E4E68A /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC994C729B00B4C00E4E68A /* SearchResultCell.swift */; };
 		CFC994CA29B00C1000E4E68A /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC994C929B00C1000E4E68A /* NothingFoundCell.xib */; };
 		CFC994CC29B0127300E4E68A /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC994CB29B0127300E4E68A /* LoadingCell.xib */; };
+		CFC994CE29B0192400E4E68A /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC994CD29B0192400E4E68A /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		CFC994B329AFFEB000E4E68A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CFC994B629AFFEB000E4E68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFC994B829AFFEB200E4E68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFC994BB29AFFEB200E4E68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC994BD29AFFEB200E4E68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC994C329B0043000E4E68A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		CFC994C529B0076A00E4E68A /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		CFC994C729B00B4C00E4E68A /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		CFC994C929B00C1000E4E68A /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		CFC994CB29B0127300E4E68A /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		CFC994CD29B0192400E4E68A /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +71,13 @@
 				CFC994B329AFFEB000E4E68A /* SearchViewController.swift */,
 				CFC994B529AFFEB000E4E68A /* Main.storyboard */,
 				CFC994B829AFFEB200E4E68A /* Assets.xcassets */,
-				CFC994BA29AFFEB200E4E68A /* LaunchScreen.storyboard */,
 				CFC994BD29AFFEB200E4E68A /* Info.plist */,
 				CFC994C329B0043000E4E68A /* SearchResult.swift */,
 				CFC994C529B0076A00E4E68A /* SearchResultCell.xib */,
 				CFC994C729B00B4C00E4E68A /* SearchResultCell.swift */,
 				CFC994C929B00C1000E4E68A /* NothingFoundCell.xib */,
 				CFC994CB29B0127300E4E68A /* LoadingCell.xib */,
+				CFC994CD29B0192400E4E68A /* UIImageView+DownloadImage.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -140,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC994BC29AFFEB200E4E68A /* LaunchScreen.storyboard in Resources */,
 				CFC994B929AFFEB200E4E68A /* Assets.xcassets in Resources */,
 				CFC994CC29B0127300E4E68A /* LoadingCell.xib in Resources */,
 				CFC994C629B0076A00E4E68A /* SearchResultCell.xib in Resources */,
@@ -158,6 +157,7 @@
 			files = (
 				CFC994B429AFFEB000E4E68A /* SearchViewController.swift in Sources */,
 				CFC994B029AFFEB000E4E68A /* AppDelegate.swift in Sources */,
+				CFC994CE29B0192400E4E68A /* UIImageView+DownloadImage.swift in Sources */,
 				CFC994C429B0043000E4E68A /* SearchResult.swift in Sources */,
 				CFC994B229AFFEB000E4E68A /* SceneDelegate.swift in Sources */,
 				CFC994C829B00B4C00E4E68A /* SearchResultCell.swift in Sources */,
@@ -173,14 +173,6 @@
 				CFC994B629AFFEB000E4E68A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFC994BA29AFFEB200E4E68A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFC994BB29AFFEB200E4E68A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
